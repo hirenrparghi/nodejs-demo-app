@@ -1,4 +1,4 @@
-const { exec } = require('child_process');
+import { exec } from 'child_process';
 var yourscript = exec('sh myscript.sh',
         (error, stdout, stderr) => {
             console.log(stdout);
