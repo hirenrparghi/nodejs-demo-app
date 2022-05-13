@@ -6,7 +6,7 @@
 #Author: Hiren Parghi
 #START #
 
-echo asking the OS nameeeeeee?
+echo asking the OS name?
 cat /etc/os-release
 
 
