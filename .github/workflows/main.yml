@@ -49,3 +49,7 @@ jobs:
       - name: node js app
         run: |
           node node_program.js
+
+      # Use another Workflow
+      - name: Using another workflow
+        uses: hirenrparghi/github-actions-demo/.github/workflows/first-gh-actions.yml@main
