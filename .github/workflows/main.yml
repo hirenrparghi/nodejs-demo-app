@@ -45,7 +45,7 @@ jobs:
           npm run build
           npm run test
 
-      # Run node js apppppppppppp
+      # Run node js app
       - name: node js app
         run: |
           node node_program.js
